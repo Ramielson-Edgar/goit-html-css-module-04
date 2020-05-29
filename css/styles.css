@@ -104,10 +104,11 @@ a {
 
 .bottom-bar {
   width: 255px;
+  height: 40px;
   display: block;
-
   position: absolute;
   bottom: 0px;
+  background-color: black;
 }
 
 p {
@@ -132,9 +133,18 @@ p {
 }
 
 .name-product {
-  margin-left: 14px;
+  margin-left: 10px;
+  font-family: 'roboto';
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  /* text-align: center; */
+  line-height: 10px;
+  color: white;
+  display: block;
 }
-.title {
+
+/* .title {
   font-family: 'roboto';
   font-size: 18px;
   text-transform: uppercase;
@@ -145,7 +155,7 @@ p {
   width: 255px;
   height: 40px;
   background-color: black;
-}
+} */
 
 .collection-list-item {
   float: left;
@@ -190,6 +200,7 @@ p {
 }
 
 .call-to-action {
+  display: block;
   font-family: 'open sans';
   font-weight: 300;
   font-size: 16px;
@@ -197,13 +208,10 @@ p {
   height: 51px;
   color: white;
   background-color: #1abc9c;
-  border-style: none;
   border-radius: 2px;
-  line-height: 26px;
+  line-height: 50px;
   text-align: center;
   margin-top: 14px;
-  padding: 0;
-  margin-bottom: 81px;
 }
 
 li {
@@ -217,10 +225,6 @@ li {
   color: #555252;
 }
 
-/* .collection-list-item {
-  position: relative;
-} */
-
 .news-section {
   object-fit: cover;
 }
@@ -232,20 +236,25 @@ li {
   height: auto;
   max-width: 100%;
   position: absolute;
-  top: 40%;
-  left: 40%;
-  transform: translate(-40%, -40%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 20px;
 }
 
 /* HOVER NAVIGATION */
-
+/* 
 .bg-card:hover .title {
   background-color: #1abc9c;
   cursor: pointer;
-}
-
+} */
 .bg-card:hover .price {
   background-color: #7fd9c7;
+  cursor: pointer;
+}
+
+.bg-card:hover .bottom-bar {
+  background-color: #1abc9c;
   cursor: pointer;
 }
 
