@@ -243,11 +243,7 @@ li {
 }
 
 /* HOVER NAVIGATION */
-/* 
-.bg-card:hover .title {
-  background-color: #1abc9c;
-  cursor: pointer;
-} */
+
 .bg-card:hover .price {
   background-color: #7fd9c7;
   cursor: pointer;
