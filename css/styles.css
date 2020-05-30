@@ -265,3 +265,8 @@ li {
 .collection-list-item:nth-last-child(-n + 4) {
   margin-bottom: 0px;
 }
+
+.link {
+  display: inline-block;
+  color: white;
+}
